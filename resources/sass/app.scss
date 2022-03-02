@@ -1,0 +1,16 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&family=Roboto&display=swap");
+ 
+// Variables
+@import "variables";
+ 
+// Foundation
+@import "~foundation-sites/scss/foundation.scss";
+@include foundation-everything(true);
+ 
+// Motion UI
+@import "~motion-ui/src/motion-ui";
+@include motion-ui-transitions;
+@include motion-ui-animations;
+ 
+// Code
